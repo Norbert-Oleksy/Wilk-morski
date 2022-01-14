@@ -1,0 +1,8 @@
+Polecenia kierowane do bota, zaczynamy znakiem '$'.
+Polecenia:
+$Witam = Bot wita się. 
+$Bot-Info = Wyświetla informacje o bocie.
+$Bot-Opcje = Wyświetla wszystkie polecenia.
+$Pogoda <Miasto> = Wyświetla stan pogody, w podanym przez użytkownika mieście. W przypadku braku podania miasta, automatycznie zostanie podana pogoda z Gdańska.
+$PogodaMiasta = Wyświetla wszystkie dostępne miasta dla "$Pogoda". 
+
