@@ -1,7 +1,5 @@
 Autor:
 Norbert Oleksy
-Data ostatniej aktualizacji:
-12.01.2022
 
 GitHub:
 https://github.com/Norbert-Oleksy/Wilk-morski
