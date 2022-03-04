@@ -80,3 +80,20 @@ def teleAdresat(wiadomosc):
     url = "https://umg.edu.pl/node/160?p=" + kto
 
     return url
+
+def wydzialy():
+  return "WE - Wydział Elektryczny \n WM - Wydział Mechaniczny \n WN - Wydział Nawigacyjny \n WZNJ - Wydział Zarządzania i Nauk o Jakości"
+
+def planZajec(wydzial):
+  if(wydzial=="pusty"):
+    return "Podaj jeszcze wydział. Wydziały sprawdzisz wpisując $Wydziały"
+  elif(wydzial=="WM"):
+    return "http://wm.am.gdynia.pl/plany-zajec"
+  elif(wydzial=="WN"):
+    return "https://wn.umg.edu.pl/plany-zajec-0"
+  elif(wydzial=="WZNJ"):
+    return "https://wznj.umg.edu.pl/plany"
+  elif(wydzial=="WE"):
+    return "http://we.umg.edu.pl/plany"
+  else:
+    return "Błąd, podaj poprawny skrót wydziału. Nazwy wydziałów i ich skróty znajdziesz pod $Wydziały"

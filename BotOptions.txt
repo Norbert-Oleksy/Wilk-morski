@@ -5,4 +5,6 @@ $BotInfo = Wyświetla informacje o bocie.
 $BotOpcje = Wyświetla wszystkie polecenia.
 $Pogoda <Miasto> = Wyświetla stan pogody, w podanym przez użytkownika mieście. W przypadku braku podania miasta, automatycznie zostanie podana pogoda z Gdańska.
 $PogodaMiasta = Wyświetla wszystkie dostępne miasta dla "$Pogoda". 
-
+$Kontakt <osoba> = Zwraca link do danych kontaktowych wybranej osoby.
+$Wydzialy = Wyświetla listę wydziałów UMG.
+$PlanZajec <wydział> = Zwraca link do strony "plany zajęć" wybranego wydziału.

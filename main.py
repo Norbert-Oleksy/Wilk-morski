@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import os
-from BotFun import listaMiast, pogoda, teleAdresat
+from BotFun import pogoda, listaMiast, teleAdresat, wydzialy, planZajec
 
 bot = commands.Bot(command_prefix='$')
 
@@ -38,5 +38,13 @@ async def PogodaMiasta(ctx):
 @bot.command()
 async def Kontakt(ctx, *osoba):
   await ctx.send(teleAdresat(osoba))
+
+@bot.command()
+async def Wydzialy(ctx):
+  await ctx.send(wydzialy())
+
+@bot.command()
+async def PlanZajec(ctx, wydzial="pusty"):
+    await ctx.send(planZajec(wydzial))
   
 bot.run(os.environ['TOKEN'])
